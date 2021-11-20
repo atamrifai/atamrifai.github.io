@@ -4,63 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uji COba</title>
+    <title>Atam Rifa'i Sujiwanto</title>
+    <!-- pengaturan font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- source css -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="shortcut icon" href="assets/favicon/Aicon.jpg">
+
+    
+    
 </head>
-<body>
-    <h3>============================================================================================</h3>
-    <textarea>
-        Contoh isi textarea
-    </textarea>
-    <h3>============================================================================================</h3>
-    <input type="search">
-    <h3>============================================================================================</h3>
-    <input type="radio" name="sex"
-        value="pria">Pria<br>
-    <input type="radio" name="sex"
-        value="wanita">Wanita
-    <h3>============================================================================================</h3>
-        <input type="checkbox" name="day"
-        value="senin">Senin<br><input type="checkbox" name="day"
-        value="selasa">Selasa<br><input type="checkbox" name="day"
-        value="rabu">Rabu
+<body> 
+    <!-- header  -->
+    <header>
+        <div class="user">
+            <img src="assets/img/Atam-profile.jpg" alt="">
+            <h3 class="name">Atam Rifa'i S.</h3>
+            <p class="post">SEIC Laboratory Asistant</p>
 
-    <h3>============================================================================================</h3>
-     <select name="country">
-        <option value="indonesia">Indonesia</option>
-        <option value="malaysia">Malaysia</option>
-        <option value="filipina">Filipina</option>
-        <option value="vietnam">Vietnam</option>
-        </select>
-    <h3>============================================================================================</h3>
-        <select name="country" multiple>
-            <option value="indonesia">Indonesia</option>
-            <option value="malaysia">Malaysia</option>
-            <option value="filipina">Filipina</option>
-            <option value="vietnam">Vietnam</option>
-            </select>
-    <h3>============================================================================================</h3>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portofolio">Portofolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>    
+            </ul>
+        </nav>
+    </header>
+    <!-- akhir header-->
+    <div id="menu" class="fas fa-bars"> </div>
 
-            <input type="submit" name="submit" value="Masukkan Form">
+    <!-- home -->
+    <section class="home" id="home">
+        <h3>HI THERE</h3>
+        <h1>I'm<span> Atam Rifa'i Sujiwanto</span></h1>
+        <p>Ini adalah portofolio pertama saya yang didalamnya menggunakan responsive css disertai dengan javascript untukmenghaluskan setiap gerakan dan perpndahan di dalam webnya</p>
+        <a href="#about"><button class="btn">about <i class="fas fa-user"></i> </button></a>
+    </section>
+    <!-- akhir home -->
 
-     <h3>============================================================================================</h3>
-            
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username">
+    <!-- about -->
+    <section class="about" id="about">
+        <h1 class="heading">
+            <span>about </span>me
+        </h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>name :</span> Atam RIfa'i S.</h3>
+                <h3><span>age :</span> 21</h3>
+                <h3><span>qualification :</span> BMS</h3>
+                <h3><span>post :</span>SEICL Asistant Laboratory</h3>
+                <h3><span>language :</span> Indonesia</h3>
+                <a href=""><button class="btn">download CV <i class="fas-fadownload"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>1+</span>
+                    <h3>years of experiance</h3>
+                </div>
+                <div class="box">
+                    <span>100+</span>
+                    <h3>project completed</h3>
+                </div>
+                <div class="box">
+                    <span>430+</span>
+                    <h3>Happy Client</h3>
+                </div>
+                <div class="box">
+                    <span>12</span>
+                    <h3>awards won</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir about -->
 
+    <!-- pendidikan -->
+    <section class="education" id="education">
+        <h1 class="heading">
+            My<span>Education</span>
+        </h1>
+        <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2013</span>
+                    <h3>SMPN 1 Situbondo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsam ex iure ducimus necessitatibus numquam est, consequuntur dolore soluta aliquid sunt vero maiores voluptate fugit laboriosam explicabo vitae accusamus repudiandae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h3>SMAN 1 Situbondo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsam ex iure ducimus necessitatibus numquam est, consequuntur dolore soluta aliquid sunt vero maiores voluptate fugit laboriosam explicabo vitae accusamus repudiandae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>Institut Teknologi PLN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsam ex iure ducimus necessitatibus numquam est, consequuntur dolore soluta aliquid sunt vero maiores voluptate fugit laboriosam explicabo vitae accusamus repudiandae.</p>
+            </div>
+        </div>
+    </section>
+    <!-- akhir pendidikan -->
+    <!-- Portofolio -->
+    <section class="portofolio" id="portofolio">
+        <h1 class="heading">my <span>portofolio</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="assets/img/Porto-1.jpg" alt="">
+                </div>    
+                <div class="box">
+                    <img src="assets/img/Porto-2.jpg" alt="">
+                </div>        
+                <div class="box">
+                    <img src="assets/img/Porto-3.jpg" alt="">
+                </div>    
+                <div class="box">
+                    <img src="assets/img/Porto-4.jpg" alt="">
+                </div>    
+                <div class="box">
+                    <img src="assets/img/Porto-5.jpg" alt="">
+                </div>    
+            </div>
 
-    <h3>============================================================================================</h3>
-    <fieldset>
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username">
-        <label for="password">Password</label>
-        <input type="text" name="password" id="password">
-        </fieldset>
+    </section>
+    <!-- End Portofolio -->
+    
+    
+    <!-- hubungi saya -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>contact </span>me</h1>
+            <div class="row">
+                <div class="content">
+                    <h3 class="title">contact info</h3>
+                    <div class="info">
+                        <h3> <i class="fas fa-envelope"></i>atam@gmail.com</h3>
+                        <h3> <i class="fas fa-phone"></i>+6285258953185</h3>
+                        <h3> <i class="fas fa-phone"></i>+6285222222289</h3>
+                        <h3> <i class="fas fa-map-marker-alt"></i>Situbondo, Jawa Timur 68322</h3>
+                    </div>
+                </div>
+                    <form action="">
+                        <input type="text" placeholder="name" class="box">
+                        <input type="email" placeholder="email" class="box">
+                        <input type="text" placeholder="project" class="box">
+                        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                        <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
 
+                    </form>
 
-        <h3>============================================================================================</h3>
-        <input type="text" name="username" requied>
-    <a href="page2"><input type="submit" name="submit"  value="Masukkan Form"></a>
+            </div>
 
-        
+        </section>
+    <!-- Akhir hubungi saya -->
+
+    <!-- kembali ke atas -->
+    <a href="#home" class="top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- untuk js jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- ile custom js -->
+    <script src="js/script.js"></script>
 </body>
 </html>
